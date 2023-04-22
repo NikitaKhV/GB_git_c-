@@ -3,7 +3,7 @@
 //23432 -> да
 //12821 -> да
 
-System.Console.WriteLine("Введите пятизначное число - ");
+System.Console.WriteLine("Введите пятизначное число:");
 string num = Console.ReadLine()!;
 int palind = num.Length;
 if (palind == 5)
