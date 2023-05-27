@@ -14,7 +14,8 @@ void WriteNumbers(int num)
 {
     if (num == 0) return;
     System.Console.Write(num + " ");
-    WriteNumbers(num - 1);
+    num--;
+    WriteNumbers(num);
 }
 
 System.Console.WriteLine();
